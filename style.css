@@ -10,10 +10,22 @@
     padding: 10px;
     height: 150px;
     width: 150px;
-    background-color: lightgray;
+    
     border: solid black 1px;
     margin: 10px;
     border-radius: 50%;
     margin: auto;
     text-align: center;
   }
+  #makeCat {
+      background-color: red
+  }
+  #makeSheep {
+    background-color: lightblue
+}
+#makeDog {
+    background-color: green
+}
+#makeHorse {
+    background-color: gold
+}

@@ -17,3 +17,7 @@ animal.prototype.render = function(){
     console.log('render thing')
 }
 // when the user clicks on the cat button a cat will appear below the button
+let makeCatButton = document.getElementById('makeCat');
+makeCatButton.addEventListener('click',function(){
+    console.log('cat was clicked')
+})
